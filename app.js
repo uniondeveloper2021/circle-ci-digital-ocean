@@ -13,7 +13,7 @@ app.use(function (req, res, next) {
 });
 
 app.get('/', function (req, res) {
-    res.json({ message: 'message from vsc soly 1233456' });
+    res.json({ message: 'message from with circle ci and digital ocean' });
 });
 
 app.get('/message-test', function (req, res) {
