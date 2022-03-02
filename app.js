@@ -13,7 +13,7 @@ app.use(function (req, res, next) {
 });
 
 app.get('/', function (req, res) {
-    res.json({ message: 'message' });
+    res.json({ message: 'message from vsc' });
 });
 
 app.get('/message-test', function (req, res) {
